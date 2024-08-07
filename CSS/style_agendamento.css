@@ -1,0 +1,26 @@
+
+
+
+
+.titulo{
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+.linha_esquerda{
+    width: 25rem;
+    height: 3px;
+    position: relative;
+    bottom: 0.3rem;
+    padding-right: 1.5rem;
+
+}
+
+.linha_direira{
+    width: 25rem;
+    height: 3px;
+    position: relative;
+    bottom: 0.3rem;
+    padding-left: 1.5rem;
+}
