@@ -1,15 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
+main{
+    display: block;
+}
 
 .titulo{
-    text-align: center;
     position: relative;
+    left: 31%;
     top: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .linha_esquerda{
-    width: 25rem;
+    width: 15%;
     height: 3px;
     position: relative;
     bottom: 0.3rem;
@@ -18,9 +28,75 @@
 }
 
 .linha_direira{
-    width: 25rem;
+    width: 15%;
     height: 3px;
     position: relative;
     bottom: 0.3rem;
     padding-left: 1.5rem;
+}
+
+#calendario{
+    width: 56%;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(116, 43, 2, 0.8);
+    position: relative;
+    left: 29.5%;
+    top: 2rem;
+}
+
+#calendario #data_ano{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+}
+
+#calendario #data_ano #ano{
+    font-size: 2rem;
+}
+
+#calendario #data_ano .icone_seta{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+table .meses{
+    display: flex;
+    gap: 1rem;
+    border-bottom: solid 1px #fff;
+    margin-bottom: 1rem;
+}
+
+table .meses td{
+    font-size: 1.5rem;
+    
+}
+
+table .dias{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+table .dias th{
+    margin-bottom: 1rem;
+}
+
+table .dias td{
+    margin-bottom: 0.9rem;
+    padding: 0.9rem;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+table .dias td:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    
 }

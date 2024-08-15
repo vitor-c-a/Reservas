@@ -12,7 +12,6 @@ body {
 }
 
 header{
-    padding-top: 2rem;
     background-color: rgba(175, 86, 3, 0.8);
     position: fixed;
     height: 100%;
@@ -69,7 +68,10 @@ header{
 
 #navegacao .lista .item_lista{
     font-size: 1.3rem;
+}
 
+#navegacao .lista .item_lista a{
+    text-decoration: none;
 }
 
 #navegacao .lista .item_lista img{
